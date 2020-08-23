@@ -1,4 +1,5 @@
-""Loongson GS264E pin names"""
+"""Loongson GS264E pin names"""
+
 from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
 
 PW21 = Pin(0) # GPIO0/W21
