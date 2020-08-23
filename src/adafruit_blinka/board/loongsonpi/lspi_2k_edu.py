@@ -1,0 +1,50 @@
+"""Pin definitions for the Loongson Pi 2K Edu."""
+
+from adafruit_blinka.microcontroller.loongson.gs264e import pin
+
+GPIO7 = pin.GPIO7
+GPIO60 = pin.GPIO60
+GPIO1 = pin.GPIO1
+GPIO2 = pin.GPIO2
+GPIO3 = pin.GPIO3
+GPIO4 = pin.GPIO4
+GPIO5 = pin.GPIO5
+GPIO6 = pin.GPIO6
+GPIO8 = pin.GPIO8
+GPIO9 = pin.GPIO9
+GPIO10 = pin.GPIO10
+GPIO11 = pin.GPIO11
+GPIO12 = pin.GPIO12
+GPIO37 = pin.GPIO37
+GPIO13 = pin.GPIO13
+GPIO38 = pin.GPIO38
+GPIO40 = pin.GPIO40
+GPIO41 = pin.GPIO41
+GPIO56 = pin.GPIO56
+GPIO57 = pin.GPIO57
+GPIO58 = pin.GPIO58
+GPIO59 = pin.GPIO59
+
+PWM0 = pin.PWM0
+PWM1 = pin.PWM1
+PWM2 = pin.PWM2
+PWM3 = pin.PWM3
+
+UART3_TXD = pin.UART3_TXD
+UART3_RXD = pin.UART3_RXD
+UART4_TXD = pin.UART4_TXD
+UART4_RXD = pin.UART4_RXD
+UART5_TXD = pin.UART5_TXD
+UART5_RXD = pin.UART5_RXD
+
+SPI_SDO = pin.SPI_SDO
+SPI_SDI = pin.SPI_SDI
+SPI_SCK = pin.SPI_SCK
+SPI_CSN1 = pin.SPI_CSN1
+SPI_CSN2 = pin.SPI_CSN2
+
+IIC0_SDA = pin.I2C0_SDA
+IIC0_SCL = pin.I2C0_SCL
+IIC1_SDA = pin.I2C1_SDA
+IIC1_SCL = pin.I2C1_SCL
+
