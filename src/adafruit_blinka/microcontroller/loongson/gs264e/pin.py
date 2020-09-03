@@ -158,7 +158,7 @@ i2cPorts = (
 
 # ordered as spiId, sckId, mosiId, misoId
 spiPorts = (
-    (0, SPI_SCK, SPI_SDO, SPI_SDI)
+    (0, SPI_SCK, SPI_SDO, SPI_SDI),
 )
 
 # ordered as uartId, txId, rxId
