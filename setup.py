@@ -64,6 +64,7 @@ setup(
         "Adafruit-PureIO>=1.1.5",
         "sysv_ipc; platform_system != 'Windows' and platform_machine != 'mips'",
         "pyftdi>=0.40.0",
+        "gpiod>=1.3.0",
     ]
     + board_reqs,
     license="MIT",
